@@ -117,10 +117,10 @@ def getmatch():
 
     }
 
-    api_key = "RGAPI-b40e923a-533d-45ec-b366-4e5d738a61a4"
-    region = 'asia'
-    massregion = 'sea'
-    sum_list = [['BalanceOvO','2145'] , ['fighter21z','4514'] , ['Quickness' , '69420']]
+    api_key = ""
+    region = ''
+    massregion = ''
+    sum_list = [[]]
 
     for i in range(len(sum_list)):
         puuid = get_puuid(sum_list[i][0],region,sum_list[i][1],api_key)
